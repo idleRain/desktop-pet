@@ -12,6 +12,9 @@
 - 全局热键 `Alt + \` 切换显示与隐藏。
 - 鼠标左键拖动宠物到任意位置。
 
+## 下载可执行 exe 文件
+
+不想拉代码装环境可以直接下载 release 版本：[v1.0 release版](https://github.com/idleRain/desktop-pet/releases/tag/v1.0)
 
 ## 运行
 
