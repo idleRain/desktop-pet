@@ -1,0 +1,21 @@
+# Python 字节码与缓存。
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# log
+*.log
+
+# 虚拟环境。
+venv/
+
+# PyInstaller 构建产物。
+build/
+dist/
+*.spec.bak
+
+# 编辑器与系统文件。
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,45 @@
+# 桌面宠物可调参数配置。
+# 修改本文件后重新运行程序即可生效，无需改动 src 源码。
+
+# 素材头部初始朝向角，导航角制，正上方为 0，顺时针为正。
+# 头部整体顺时针偏多少度，就把该值加上多少度。
+head_heading_deg = -45
+
+# 图片显示宽度，单位为像素，高度按原图比例自动缩放。
+base_width = 100
+
+# 初始爬行速度的随机范围。
+speed_min = 1.0
+speed_max = 3.5
+
+# 变速时的随机范围。
+speed_change_min = 0.8
+speed_change_max = 4.0
+
+# 改变方向的间隔帧数范围，每帧约 16 毫秒。
+direction_change_interval_min = 80
+direction_change_interval_max = 200
+
+# 大转向发生概率，取值 0 到 1。
+sharp_turn_probability = 0.3
+
+# 大转向的角度变化范围，单位为弧度。
+sharp_turn_range = 0.8
+
+# 微调的角度变化范围，单位为弧度。
+slight_turn_range = 0.4
+
+# 上下颠簸幅度，单位为像素。
+bob_amplitude = 2.5
+
+# 左右倾斜幅度，单位为度。
+tilt_amplitude = 3.5
+
+# 颠簸频率随速度变化的系数，数值越大颠簸越快。
+bob_freq_factor = 0.18
+
+# 切换显示与隐藏的全局热键。
+# modifiers 为修饰键位掩码，Alt 取值 1，Ctrl 取值 2，Shift 取值 4，Win 取值 8，多个修饰键按位相加。
+# key 为虚拟键码，反斜杠键取值 220。
+hotkey_modifiers = 1
+hotkey_key = 220
